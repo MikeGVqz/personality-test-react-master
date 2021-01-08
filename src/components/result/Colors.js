@@ -33,11 +33,11 @@ class Colors extends Component {
   renderBrownDef() {
     return (
       <BrownDef
-        title={'Brown Type Definition'}
-        content={`You are a Builder. You enjoy leading, creating and working hard.
-                  You are a traditional person with respect for authority.
-                  Your strengths are your diligence, directness and practicality.
-                  Your weaknesses are your lack of tact, patience, and difficulty with abstractions.`}
+        title={'Definición tipo café'}
+        content={`Eres un constructor. Disfrutas liderar, crear y trabajar duro.
+                 Eres una persona tradicional con respecto hacia la autoridad.
+                  Tus fuerzas son tu diligencia, franqueza y practicidad.
+                  Tus debilidades son la falta de tacto, paciencia y habilidad de abstracción.`}
         onBackClick={this.onBrownDefClick}
       />
     )
@@ -46,11 +46,11 @@ class Colors extends Component {
   renderGreenDef() {
     return (
       <GreenDef
-        title={'Green Type Definition'}
-        content={`You are a Planner. You enjoy dreaming, plotting and innovating.
-                  You tend to spend a lot of time thinking.
-                  Your strengths are your vision, objectiveness and attention to detail.
-                  Your weaknesses are your difficulty in putting yourself in the current moment and lack of practicality and speed.`}
+        title={'Definición tipo verde'}
+        content={`Eres un planificador. Disfrutas soñar, conspirar e innovar.
+                  Tiendes a gastar mucho tiempo pensando.
+                  Tus fuerzas son tu visión, objetividad y atención al detalle.
+                  Tus debilidades son tu dificultad de ponerte en el presente, tu falta de practicidad y velocidad.`}
         onBackClick={this.onGreenDefClick}
       />
     )
@@ -59,11 +59,11 @@ class Colors extends Component {
   renderBlueDef() {
     return (
       <BlueDef
-        title={'Blue Type Definition'}
-        content={`You are a Relater. You enjoy chatting, romance and spending time with others.
-                You are an empathetic person who tends to put the needs of others above your own.
-                Your strengths are your sympathy, openness and awareness of your own emotions.
-                Your weaknesses are your subjectivity, pliability and manipulability.`}
+        title={'Definición tipo azul'}
+        content={`Eres un relacionador. Disfrutas platicar, el romance y pasar tiempo con otros.
+                Eres una persona empatica que tiende a poner las necesidades de otros sobre las tuyas.
+                Tus fuerzas son tu simpatía, sinceridad y consciencia sobre tus emociones.
+                Tus debilidades son tu subjetividad, flexibilidad y manipulabilidad.`}
         onBackClick={this.onBlueDefClick}
       />
     )
@@ -72,11 +72,11 @@ class Colors extends Component {
   renderRedDef() {
     return (
       <RedDef
-        title={'Red Type Definition'}
-        content={`You are an Adventurer. You enjoy action, excitement and drama.
-                  You easily accept change and are spontaneous.
-                  Your strengths are your tenacity, fearlessness and adaptability.
-                  Your weaknesses are your carelessness and lack of focus and diligence.`}
+        title={'Definición tipo roja'}
+        content={`Eres un aventurero. Disfrutas la acción, la emoción y el drama.
+                  Aceptas fácil el cambio y eres espontáneo.
+                  Tus fuerzas son tu tenacidad, intrepidez y adaptabilidad.
+                  Tus debilidades son tu descuido y tu falta de concentración y diligencia.`}
         onBackClick={this.onRedDefClick}
       />
     )

@@ -62,8 +62,8 @@ class Briggs extends Component {
   renderISTJ() {
     return (
       <ISTJ
-        title={'Introvertido | Sensible | Pensador | Juez'}
-        content={`Eres tipo ISTJ, El inspector.
+        title={'Introvertido | Sensible | Pensante | Juez'}
+        content={`El Inspector.
                 Tiendes a ser practico y lógico sobre todo.
                 Deberías considerar un trabajo en contadodría o ingeniería.`}
         onBackClick={this.onISTJ_click}
@@ -75,9 +75,9 @@ class Briggs extends Component {
     return (
       <ISFJ
         title={'Introvertido | Sensible | Sentimental | Juez'}
-        content={`You are a type ISFJ, aka The Protector.
-                  You tend to be sympathetic and organized above all else.
-                  You should consider a job in childcare or bookkeeping.`}
+        content={`el Protector.
+                  Tiendes a ser simpatico y organizado sobre todo.
+                  Deberías considerar un trabajo para cuidar niños o en librerías.`}
         onBackClick={this.onISFJ_click}
       />
     )
@@ -86,10 +86,10 @@ class Briggs extends Component {
   renderINFJ() {
     return (
       <INFJ
-        title={'Introvert | iNtuitive | Feeling | Judging'}
-        content={`You are a type INFJ, aka The Counselor.
-                You tend to be sensitive and creative above all else.
-                You should consider a job in education or the arts.`}
+        title={'Introverido | iNtuitivo | Sentimental | Juez'}
+        content={`El Consejero.
+               Tiendes a ser sensible y creativo sobre todo.
+                Deberías considerar un trabajo en educación o en artes.`}
         onBackClick={this.onINFJ_click}
       />
     )
@@ -98,10 +98,10 @@ class Briggs extends Component {
   renderINTJ() {
     return (
       <INTJ
-        title={'Introvert | iNtuitive | Thinking | Judging'}
-        content={`You are a type INTJ, aka The Mastermind.
-                      You tend to be decisive and insightful above all else.
-                      You should consider a job in architecture or engineering.`}
+        title={'Introvertido | iNtuitive | Pensante | Juez'}
+        content={`La Mente Maestra.
+                      Tiendes a ser decisivo y perspicaz sobre todo.
+                      Deberías considerar un trabajo en arquitectura o en ingeniería.`}
         onBackClick={this.onINTJ_click}
       />
     )
@@ -110,10 +110,10 @@ class Briggs extends Component {
   renderISTP() {
     return (
       <ISTP
-        title={'Introvert | Sensing | Thinking | Perceiving'}
-        content={`You are a type ISTP, aka The Operator.
-                  You tend to be analytical and practical above all else.
-                  You should consider a job in computer technology or farming.`}
+        title={'Introvertido | Sensible | Pensante | Perceptivo'}
+        content={`El Operador.
+                  Tiendes a ser análitico y práctico sobre todo.
+                  Deberías considerar un trabajo en informática o en agricultura.`}
         onBackClick={this.onISTP_click}
       />
     )
@@ -122,10 +122,10 @@ class Briggs extends Component {
   renderISFP() {
     return (
       <ISFP
-        title={'Introvert | Sensing | Feeling | Perceiving'}
-        content={`You are a type ISFP, aka The Composer.
-                  You tend to be loyal and adaptable above all else.
-                  You should consider a job in teaching or nursing.`}
+        title={'Introvertido | Sensible | Sentimental | Perceptivo'}
+        content={`El Compositor.
+                  Tiendes a ser leal y adaptable sobre todo.
+                  Deberías considerar un trabajo enseñando o en enfermería.`}
         onBackClick={this.onISFP_click}
       />
     )
@@ -134,10 +134,10 @@ class Briggs extends Component {
   renderINFP() {
     return (
       <INFP
-        title={'Introvert | iNtuitive | Feeling | Perceiving'}
-        content={`You are a type INFP, aka The Healer.
-                  You tend to be empathetic and inquisitive above all else.
-                  You should consider a job in writing or graphic design.`}
+        title={'Introvertido | iNtuitivo | Sentimental | Perceptivo'}
+        content={`El Sanador.
+                 Tiendes a ser empatico y curioso sobre todo.
+                  Deberías considerar un trabajo de escritor o en diseño gráfico`}
         onBackClick={this.onINFP_click}
       />
     )
@@ -146,10 +146,10 @@ class Briggs extends Component {
   renderINTP() {
     return (
       <INTP
-        title={'Introvert | iNtuitive | Thinking | Perceiving'}
-        content={`You are a type INTP, aka The Architect.
-                  You tend to be curious and analytical above all else.
-                  You should consider a job in architecture or construction.`}
+        title={'Introvertido | iNtuitivo | Pensante | Perceptivo'}
+        content={`El Arquitecto.
+                  Tiendes a ser curioso y analitico sobre todo.
+                  Deberías considerar un trabajo en arquitectura o en construcción.`}
         onBackClick={this.onINTP_click}
       />
     )
@@ -158,10 +158,10 @@ class Briggs extends Component {
   renderESTP() {
     return (
       <ESTP
-        title={'Extravert | Sensing | Thinking | Perceiving'}
-        content={`You are a type ESTP, aka The Promoter.
-                  You tend to be energetic and realistic above all else.
-                  You should consider a job in sales or forestry.`}
+        title={'Extrovertido | Sensible | Pensante | Perceptivo'}
+        content={`El Promotor.
+                  Tiendes a ser energetico y realista sobre todo.
+                  Deberías considerar un trabajo en ventas o de guardabosques.`}
         onBackClick={this.onESTP_click}
       />
     )
@@ -170,10 +170,10 @@ class Briggs extends Component {
   renderESFP() {
     return (
       <ESFP
-        title={'Extravert | Sensing | Feeling | Perceiving'}
-        content={`You are a type ESFP, aka The Performer.
-                  You tend to be caring and resourceful above all else.
-                  You should consider a job in hospitality or health care.`}
+        title={'Extrovertido | Sensible | Sentimental | Perceptivo'}
+        content={`El Intérprete.
+                 Tiendes a ser cuidadoso e ingenioso sobre todo.
+                  Deberías considerar un trabajo en hospitalidad o en cuidado de la salud.`}
         onBackClick={this.onESFP_click}
       />
     )
@@ -182,10 +182,10 @@ class Briggs extends Component {
   renderENFP() {
     return (
       <ENFP
-        title={'Extravert | iNtuitive | Feeling | Perceiving'}
-        content={`You are a type ENFP, aka The Champion.
-                  You tend to be imaginative and insightful above all else.
-                  You should consider a job in therapy or acting.`}
+        title={'Extrovertido | iNtuitivo | Sentimental | Perceptivo'}
+        content={`El Campeón.
+                  Tiendes a ser imaginativo y perspicaz sobre todo.
+                  Deberías considerar un trabajo en terapía o en artes.`}
         onBackClick={this.onENFP_click}
       />
     )
@@ -194,10 +194,10 @@ class Briggs extends Component {
   renderENTP() {
     return (
       <ENTP
-        title={'Extravert | iNtuitive | Thinking | Perceiving'}
-        content={`You are a type ENTP, aka The Inventor.
-                  You tend to be enthusiastic and theoretical above all else.
-                  You should consider a job in business or sports.`}
+        title={'Extrovertido | iNtuitivo | Pensante | Perceptivo'}
+        content={`El Inventor.
+                  Tiendes a ser entusiasta y teorico sobre todo.
+                  Deberías considerar un trabajo en negocios o en deportes.`}
         onBackClick={this.onENTP_click}
       />
     )
@@ -206,10 +206,10 @@ class Briggs extends Component {
   renderESTJ() {
     return (
       <ESTJ
-        title={'Extravert | Sensing | Thinking | Judging'}
-        content={`You are a type ESTJ, aka The Supervisor.
-                  You tend to be logical and assertive above all else.
-                  You should consider a job in leadership or law.`}
+        title={'Extrovertido | Sensible | Pensante | Juez'}
+        content={`El Supervisor.
+                  Tiendes a ser lógico y asertivo sobre todo.
+                  Deberías considerar un trabajo en liderazgo o en leyes.`}
         onBackClick={this.onESTJ_click}
       />
     )
@@ -218,10 +218,10 @@ class Briggs extends Component {
   renderESFJ() {
     return (
       <ESFJ
-        title={'Extravert | Sensing | Feeling | Judging'}
-        content={`You are a type ESFJ, aka The Provider.
-                  You tend to be sociable and caring above all else.
-                  You should consider a job in childcare or healthcare.`}
+        title={'Extrovertido | Sensible | Sentimental | Juez'}
+        content={`El Proveedor.
+                  Tiendes a ser sociable y atento sobre todo.
+                  Deberías considerar un trabajo en cuidado de niños o en cuidado de la salud.`}
         onBackClick={this.onESFJ_click}
       />
     )
@@ -230,10 +230,10 @@ class Briggs extends Component {
   renderENFJ() {
     return (
       <ENFJ
-        title={'Extravert | iNtuitive | Feeling | Judging'}
-        content={`You are a type ENFJ, aka The Teacher.
-                  You tend to be passionate and imaginative above all else.
-                  You should consider a job in teaching or the arts.`}
+        title={'Extrovertido | iNtuitivo | Sentimental | Juez'}
+        content={`El Maestro.
+                 Tiendes a ser pasionado e imaginatico sobre todo.
+                 Deberías considerar un trabajo de maestro o en artes.`}
         onBackClick={this.onENFJ_click}
       />
     )
@@ -242,10 +242,10 @@ class Briggs extends Component {
   renderENTJ() {
     return (
       <ENTJ
-        title={'Extravert | iNtuitive | Thinking | Judging'}
-        content={`You are a type ENTJ, aka The Field Marshall.
-                  You tend to be organized and logical above all else.
-                  You should consider a job in law or engineering.`}
+        title={'Extrovertido | iNtuitivo | Pensante | Juez'}
+        content={`El Mariscal de Campo.
+                  Tiendes a ser organizado y lógico sobre todo.
+                  Deberías considerar un trabajo en leyes o ingeniería.`}
         onBackClick={this.onENTJ_click}
       />
     )
@@ -303,11 +303,11 @@ class Briggs extends Component {
     }
     return (
       <Wrapper>
-        <h1 className="display-3 title">Briggs Result</h1>
+        <h1 className="display-3 title">Resultado</h1>
         <hr className="my-4" />
         <h2 className="display-6 resultTxt">{this.props.resultBriggs}</h2>
         <hr className="my-5" />
-        <p className="lead">What does this result mean?</p>
+        <p className="lead">Que significa este resultado?</p>
         <ul className="list-group briggs">
           <li className="list-group-item" onClick={this.onISTJ_click}>
             ISTJ

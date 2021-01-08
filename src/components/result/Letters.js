@@ -33,10 +33,10 @@ class Letters extends Component {
   renderLetterA() {
     return (
       <LetterA
-        title={'Letter A Definition'}
-        content={`You are a type A personality. You like to be in control of everything.
-                Your strengths are your tenacity, confidence and practicality.
-                Your weaknesses are your lack of empathy, discipline and detail-awareness.`}
+        title={'Definición letra A'}
+        content={`Eres personalidad tipo A. Te gusta estar en control sobre todo.
+                Tus fuerzas son tu tenacidad, confianza y tu sentido práctico                .
+                Tus debilidades son tu falta de empatía, disciplina y conciencia de los detalles.`}
         onBackClick={this.onLetterA_Click}
       />
     )
@@ -45,10 +45,10 @@ class Letters extends Component {
   renderLetterB() {
     return (
       <LetterB
-        title={'Letter B Definition'}
-        content={`You are a type B personality. You like to be around people.
-                Your strengths are your empathy, enthusiasm and spontaneity.
-                Your weaknesses are your lack of patience, attention and confidence.`}
+        title={'Definición letra B'}
+        content={`Eres personalidad tipo B. Te gusta estar rodeado de personas.
+                Tus fuerzas son tu empatía, entusiasmo y espontaneidad.
+                Tus debilidades son tu falta de atención, paciencia y confianza.`}
         onBackClick={this.onLetterB_Click}
       />
     )
@@ -57,10 +57,10 @@ class Letters extends Component {
   renderLetterC() {
     return (
       <LetterC
-        title={'Letter C Definition'}
-        content={`You are a type C personality. You like to think things through.
-                Your strengths are your rationality, objectivity and originality.
-                Your weaknesses are your lack of spontaneity, practicality and empathy.`}
+        title={'Definición letra C'}
+        content={`Eres personalidad tipo C. You like to Te gusta pensar bien las cosas.
+               Tus fuerzas son tu racionalidad, objetividad y originalidad.
+                Tus debilidades son tu falta de espontaneidad, practicidad y empatía.`}
         onBackClick={this.onLetterC_Click}
       />
     )
@@ -69,10 +69,10 @@ class Letters extends Component {
   renderLetterD() {
     return (
       <LetterD
-        title={'Letter D Definition'}
-        content={`You are a type D personality. You like to feel safe and secure in life.
-                  Your strengths are your organization, compassion and patience.
-                  Your weaknesses are your lack of ambition, adaptability and assertiveness.`}
+        title={'Definición letra D'}
+        content={`ERes personalidad tipo D. Te gusta sentirte a salvo y seguro en la vida.
+                  ´Tus fuerzas son tu organización, compasión y paciencia.
+                  Tus debilidades son tu falta de atención, adaptabilidad y asertividad.`}
         onBackClick={this.onLetterD_Click}
       />
     )
@@ -94,32 +94,32 @@ class Letters extends Component {
     }
     return (
       <Wrapper>
-        <h1 className="display-3 title">Letters Result</h1>
+        <h1 className="display-3 title">Resultado de letras</h1>
         <hr className="my-4" />
         <h2 className="display-6 resultTxt">{this.props.resultLetters}</h2>
         <hr className="my-5" />
-        <p className="lead">What does this result mean?</p>
+        <p className="lead">Qué significa este resultado?</p>
         <ul className="list-group">
           <li className="list-group-item" onClick={this.onLetterA_Click}>
-            Letter A
+            Letra A
             <div className="icon">
               <i className="fa fa-arrow-right" />
             </div>
           </li>
           <li className="list-group-item" onClick={this.onLetterB_Click}>
-            Letter B
+           Letra B
             <div className="icon">
               <i className="fa fa-arrow-right" />
             </div>
           </li>
           <li className="list-group-item" onClick={this.onLetterC_Click}>
-            Letter C
+           Letra C
             <div className="icon">
               <i className="fa fa-arrow-right" />
             </div>
           </li>
           <li className="list-group-item" onClick={this.onLetterD_Click}>
-            Letter D
+           Letra D
             <div className="icon">
               <i className="fa fa-arrow-right" />
             </div>
